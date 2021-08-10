@@ -5,7 +5,7 @@
     height: fit-content;
     align-items: center;
     display: flex;
-    justify-content:space-evenly;
+    justify-content:space-between;
     text-transform: uppercase;
     background: #200122;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #6f0000, #200122);  /* Chrome 10-25, Safari 5.1-6 */
@@ -44,6 +44,10 @@
         padding: top 15px;
         font-size: 6.4vw;
         width: 100%;
+    }
+
+    .MuiBottomNavigationAction-root {
+        padding: 6px 34px 8px!important;
     }
 }
 
