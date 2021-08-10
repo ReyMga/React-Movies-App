@@ -1,17 +1,14 @@
 * {
   scroll-behavior: smooth;
-  /* color: rgb(221, 211, 211); */
 }
 
 .app {
   min-height: 100vh;
-  background-color: #39445a; 
+  background-color: #39445a;
   color: white;
   padding-top: 130px;
   padding-bottom: 70px;
 }
-
-
 
 .pageTitle {
   text-transform: uppercase;
@@ -25,14 +22,10 @@
 }
 
 
-
-
 .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
-
-
 
 .App-header {
   background-color: #282c34;
@@ -53,7 +46,6 @@
   padding-left: 0px !important;
   padding-right: 0px !important;
 }
-
 
 @keyframes App-logo-spin {
   from {
@@ -100,6 +92,7 @@ MuiButtonBase-root MuiBottomNavigationAction-root{
 
 
 @media (max-width: 700px) {
+
   body{
     background-color: darkred!important;
     width: 100%!important;
@@ -110,16 +103,10 @@ MuiButtonBase-root MuiBottomNavigationAction-root{
     background: darkred;
   }
 
-  .MuiBottomNavigationAction-label{
+  .MuiBottomNavigationAction-label {
     display: none;
   }
-  .MuiBottomNavigationAction-wrapper{
-    margin-top: 40%;
-  }
-  .MuiBottomNavigationAction-wrapper{
-    margin-left: 32%;
-    margin-top: 7%;
-  }
+
 
   .MuiBottomNavigationAction-root.Mui-selected{
     padding-top: 8px!important;
@@ -129,16 +116,10 @@ MuiButtonBase-root MuiBottomNavigationAction-root{
      padding: 0px 0px;
   }
  
-  element.style {
-    width: 26%;
-    border-radius: 14px;
-    background-color: dimgrey;
-    margin-left: auto;
-  }
-
-  .MuiSvgIcon-root{
+  .MuiSvgIcon-root {
     font-size: 21.2px;
   }
+
 
   .MuiBottomNavigation-root makeStyles-root-1{
     margin-top:4%;
@@ -150,18 +131,13 @@ MuiButtonBase-root MuiBottomNavigationAction-root{
   .MuiBottomNavigationAction-wrapper{
     margin-right: 52%;
   }
-  .estilos-imagen{
+  .estilos-imagen {
     display: none;
   }
 
-  #root{
-    width: 100%;
+  .MuiBottomNavigation-root makeStyles-root-1 {
+    height: 2%;
   }
-
-  .MuiBottomNavigation-root makeStyles-root-1{
-    margin-left: 10%;
-  } 
-
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -169,6 +145,7 @@ MuiButtonBase-root MuiBottomNavigationAction-root{
     animation: App-logo-spin infinite 20s linear;
   }
 }
+
 
 
 @media (max-width: 424px){
@@ -187,9 +164,10 @@ MuiButtonBase-root MuiBottomNavigationAction-root{
     padding: -3px 32px 8px;
   }
 
-  .jss1{
-    width: 94%!important;
+  .jss1 {
+    width: 94% !important;
   }
+
 
   .ant-carousel{
     width: 100%;
@@ -217,20 +195,21 @@ MuiButtonBase-root MuiBottomNavigationAction-root{
   }
 }
 
-@media (min-width: 768px){
-  body{
-  background: #870000;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #190A05, #870000);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #190A05, #870000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+@media (min-width: 768px) {
+  body {
+    background: #870000; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right,#190a05,#870000); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right,#190a05,#870000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   }
 }
-
 
 @media (max-width: 767px) {
-  .MuiAutocomplete-hasPopupIcon{
+  .MuiAutocomplete-hasPopupIcon {
     width: 36% !important;
   }
+
+  .MuiBottomNavigationAction-root {
+    min-width: 60px !important;
+    justify-content: space-between !important;
+  }
 }
-
-
-
